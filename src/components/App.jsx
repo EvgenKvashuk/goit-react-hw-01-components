@@ -9,7 +9,6 @@ import friends from "./friends/friends";
 import transactions from "./transaction/transactions";
 
 export const App = () => {
-
     return (
         <div>
             <Profile
