@@ -23,12 +23,12 @@
     text-align: center;
 }
 
-.description .name {
+.name {
     font-size: 40px;
 }
 
-.description .tag,
-.description .location {
+.tag,
+.location {
     font-size: 20px;
     color: rgb(131, 126, 126);
 }
@@ -44,12 +44,12 @@
     text-align: center;
 }
 
-.stats li .label {
+.label {
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
-.stats li .label {
+.label {
     color: rgb(131, 122, 122);
     font-size: 20px;
 }
