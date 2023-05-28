@@ -1,5 +1,6 @@
 import css from "./Statistics.module.css";
 
+
 export const Statistics = ({ stats, title }) => {
   return (
     <section className={css['statistics']}>
@@ -18,6 +19,4 @@ export const Statistics = ({ stats, title }) => {
       </ul>
     </section>
   );
-
-
 };

@@ -1,6 +1,6 @@
 import { Profile } from "./profile/Profile";
 import { Statistics } from "./statistics/Statistics";
-import { FriendList } from "./friends/FriendList";
+import { FriendList } from "./friends/FriendList"
 import { TransactionHistory } from "./transaction/TransactionHistory";
 
 import user from "./profile/user";
@@ -15,8 +15,10 @@ export const App = () => {
                 username={user.username}
                 tag={user.tag}
                 location={user.location}
-                avatar={user.avatar}
-                stats={user.stats}
+                imgUrl={user.avatar}
+                followers={user.stats.followers}
+                views={user.stats.views}
+                likes={user.stats.likes}
             />
             <Statistics title="Upload stats" stats={data} />
             <FriendList friends={friends} />
@@ -24,3 +26,4 @@ export const App = () => {
         </div>
     );
 }; 
+
